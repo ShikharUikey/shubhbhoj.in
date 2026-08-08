@@ -6,6 +6,7 @@ import GalleryGrid from "../components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Event & Wedding Gallery",
   description: "Browse the stunning event gallery of Shubh Bhoj Catering. See our premium food setups, royal presentation, and beautiful event management in Delhi NCR.",
+  keywords: ["luxury wedding catering", "destination wedding caterers in india", "luxury dining experience delhi", "beautiful catering setups"],
   alternates: {
     canonical: "/gallery",
   },
