@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "Premium Wedding Caterers in Delhi NCR",
   description: "Experience the best catering services in Delhi NCR with Shubh Bhoj Catering. Perfect for weddings, corporate events, and parties.",
-  keywords: ["shubhbhoj", "shubhbhoj.in", "restaurant in delhi", "best caterers in delhi ncr", "catering services in delhi", "premium catering services delhi"],
+  keywords: ["shubhbhoj", "shubhbhoj.in", "restaurant in delhi", "best caterers in delhi ncr", "catering services in delhi", "premium catering services delhi", "shubh bhoj official website", "top 10 caterers in delhi ncr", "best food catering near me", "shubh bhoj reviews"],
   alternates: {
     canonical: "/",
   },
