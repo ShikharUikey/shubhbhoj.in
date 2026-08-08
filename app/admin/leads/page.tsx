@@ -8,6 +8,11 @@ interface Lead {
   email?: string;
   phone: string;
   query: string;
+  eventType?: string;
+  guests?: string;
+  eventDate?: string;
+  location?: string;
+  message?: string;
   createdAt: string;
 }
 
