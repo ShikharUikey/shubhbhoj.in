@@ -72,7 +72,7 @@ export default function ContactSection() {
             </p>
 
             <h2 className="text-5xl font-bold text-[#5A001A] mb-6">
-              Let's Plan Something Special
+              Let&apos;s Plan Something Special
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-10">

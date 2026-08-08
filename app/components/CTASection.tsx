@@ -10,11 +10,11 @@ export default function CTASection() {
           </p>
 
           <h2 className="mt-5 text-4xl md:text-6xl font-bold text-white">
-            Let's Plan Your Perfect Event
+            Let&apos;s Plan Your Perfect Event
           </h2>
 
           <p className="mt-6 max-w-3xl mx-auto text-white/80 text-lg leading-relaxed">
-            Whether it's a wedding celebration, corporate gathering,
+            Whether it&apos;s a wedding celebration, corporate gathering,
             family function, or special occasion, our team is ready
             to create an unforgettable catering experience tailored
             to your needs.

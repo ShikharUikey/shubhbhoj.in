@@ -2,8 +2,15 @@
 
 import { useEffect, useState } from "react";
 
+interface PricingPackage {
+  id: number;
+  title: string;
+  price: string;
+  description: string;
+}
+
 export default function PricingPage() {
-  const [packages, setPackages] = useState<any[]>([]);
+  const [packages, setPackages] = useState<PricingPackage[]>([]);
 
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
@@ -16,6 +23,7 @@ export default function PricingPage() {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchPackages();
   }, []);
 
@@ -105,7 +113,7 @@ export default function PricingPage() {
       </div>
 
       <div className="grid gap-4">
-        {packages.map((pkg: any) => (
+        {packages.map((pkg: PricingPackage) => (
           <div
             key={pkg.id}
             className="border rounded-lg p-4"

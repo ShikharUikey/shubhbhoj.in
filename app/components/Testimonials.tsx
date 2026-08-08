@@ -94,7 +94,7 @@ export default function Testimonials() {
           <p className="mt-6 max-w-3xl mx-auto text-gray-900 text-lg leading-8">
 
             Every celebration we cater becomes a cherished memory.
-            Here's what our clients say about their experience with
+            Here&apos;s what our clients say about their experience with
             Shubh Bhoj Catering & Events.
 
           </p>
@@ -189,7 +189,7 @@ export default function Testimonials() {
 
                 <p className="text-2xl leading-[2.2] text-gray-700 font-light">
 
-                  "{active.text}"
+                  &quot;{active.text}&quot;
 
                 </p>
 
@@ -280,7 +280,7 @@ export default function Testimonials() {
 
             <p className="mt-6 max-w-3xl mx-auto text-white/80 leading-8 text-lg">
 
-              Whether it's a wedding, corporate gathering,
+              Whether it&apos;s a wedding, corporate gathering,
               birthday celebration or family function,
               our team is ready to deliver a premium catering
               experience with authentic flavours and exceptional

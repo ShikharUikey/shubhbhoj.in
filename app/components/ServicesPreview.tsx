@@ -208,10 +208,10 @@ export default function ServicesPreview() {
               <div className="max-w-3xl">
                 <p className="uppercase tracking-[6px] text-[#D4AF37] text-sm font-semibold">Ready To Celebrate?</p>
                 <h2 className="mt-5 text-4xl lg:text-5xl font-bold text-white leading-tight">
-                  Let's Create An<br />Unforgettable Event Together
+                  Let&apos;s Create An<br />Unforgettable Event Together
                 </h2>
                 <p className="mt-6 text-gray-200 leading-8 text-lg">
-                  Whether it's a wedding, reception, birthday, corporate gathering, or family celebration,
+                  Whether it&apos;s a wedding, reception, birthday, corporate gathering, or family celebration,
                   Shubh Bhoj delivers exceptional cuisine, elegant presentation and flawless hospitality
                   tailored to your special occasion.
                 </p>

@@ -17,17 +17,7 @@ export default function EstimatorLeadsPage() {
   const [requests, setRequests] = useState<EstimatorRequest[]>([]);
   const [loading, setLoading] = useState(true);
  
-  const fetchRequests = async () => {
-    try {
-      const res = await fetch("/api/estimator");
-      const data = await res.json();
-      setRequests(data);
-    } catch (err) {
-      console.error("Failed to fetch estimator requests:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
+
  
   const handleDelete = async (id: number) => {
     if (!confirm("Delete this estimator request?")) return;
@@ -49,6 +39,17 @@ export default function EstimatorLeadsPage() {
   };
  
   useEffect(() => {
+    const fetchRequests = async () => {
+      try {
+        const res = await fetch("/api/estimator");
+        const data = await res.json();
+        setRequests(data);
+      } catch (err) {
+        console.error("Failed to fetch estimator requests:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
     fetchRequests();
   }, []);
  

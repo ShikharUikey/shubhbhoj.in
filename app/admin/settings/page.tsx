@@ -15,21 +15,20 @@ export default function SettingsPage() {
   const [passwordLoading, setPasswordLoading] = useState(false);
 
   useEffect(() => {
+    const fetchUsername = async () => {
+      try {
+        const res = await fetch("/api/admin/settings");
+        const data = await res.json();
+        if (res.ok && data.success) {
+          setUsername(data.username);
+          setNewUsername(data.username);
+        }
+      } catch (err) {
+        console.error("Failed to fetch username", err);
+      }
+    };
     fetchUsername();
   }, []);
-
-  const fetchUsername = async () => {
-    try {
-      const res = await fetch("/api/admin/settings");
-      const data = await res.json();
-      if (res.ok && data.success) {
-        setUsername(data.username);
-        setNewUsername(data.username);
-      }
-    } catch (err) {
-      console.error("Failed to fetch username", err);
-    }
-  };
 
   const handleUpdateUsername = async (e: React.FormEvent) => {
     e.preventDefault();

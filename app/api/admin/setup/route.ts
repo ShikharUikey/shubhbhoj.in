@@ -3,7 +3,7 @@ import { db } from "@/lib/db";
 import bcrypt from "bcryptjs";
 
 // Call this route via GET to create an initial admin user
-export async function GET(req: Request) {
+export async function GET() {
   try {
     const existingAdminResult = await db.execute("SELECT * FROM Admin LIMIT 1");
     if (existingAdminResult.rows.length > 0) {

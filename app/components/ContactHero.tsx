@@ -7,11 +7,11 @@ export default function ContactHero() {
         </p>
 
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Let's Discuss Your Next Celebration
+          Let&apos;s Discuss Your Next Celebration
         </h1>
 
         <p className="max-w-3xl mx-auto text-lg text-gray-200 leading-relaxed">
-          Whether it's a wedding, corporate gathering, birthday celebration,
+          Whether it&apos;s a wedding, corporate gathering, birthday celebration,
           or family function, our team is ready to create a memorable catering
           experience tailored to your needs.
         </p>

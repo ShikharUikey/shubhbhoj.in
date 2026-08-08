@@ -2,8 +2,16 @@
 
 import { useEffect, useState } from "react";
 
+interface Lead {
+  id: number;
+  name: string;
+  phone: string;
+  query: string;
+  createdAt: string;
+}
+
 export default function LeadsPage() {
-  const [leads, setLeads] = useState<any[]>([]);
+  const [leads, setLeads] = useState<Lead[]>([]);
 
   useEffect(() => {
     fetch("/api/leads")
