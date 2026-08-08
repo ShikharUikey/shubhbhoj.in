@@ -3,7 +3,7 @@ import "./globals.css";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.shubhbhoj.com"),
+  metadataBase: new URL("https://shubhbhoj.vercel.app"),
   title: {
     default: "Shubh Bhoj Catering & Events | Premium Catering Services in Delhi NCR",
     template: "%s | Shubh Bhoj Catering",
@@ -11,8 +11,14 @@ export const metadata: Metadata = {
   description:
     "Shubh Bhoj Catering & Events offers premium wedding catering, corporate event management, and outdoor catering services in Delhi NCR. Unforgettable taste and royal hospitality.",
   keywords: [
+    "restaurant in delhi",
+    "catering services in delhi",
+    "delhi ncr catering",
+    "delhi ncr catering services",
+    "shubhbhoj",
+    "shubhbhoj.in",
+    "shubhbhoj.com",
     "Premium Catering Delhi NCR",
-    "Catering Services in Delhi NCR",
     "Wedding Caterers in Delhi NCR",
     "Best Caterers in Delhi",
     "Event Management Delhi",
