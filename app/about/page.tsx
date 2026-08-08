@@ -6,6 +6,20 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "About Us",
   description: "Learn more about Shubh Bhoj Catering, the premium wedding caterers and event management experts based in Delhi NCR.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About Us | Shubh Bhoj Catering",
+    description: "Learn more about Shubh Bhoj Catering, the premium wedding caterers and event management experts based in Delhi NCR.",
+    url: "/about",
+    images: ["/about-hero.jpg"],
+  },
+  twitter: {
+    title: "About Us | Shubh Bhoj Catering",
+    description: "Learn more about Shubh Bhoj Catering, the premium wedding caterers and event management experts based in Delhi NCR.",
+    images: ["/about-hero.jpg"],
+  },
 };
 
 export default function AboutPage() {

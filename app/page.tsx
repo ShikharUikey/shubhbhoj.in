@@ -13,6 +13,20 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "Premium Wedding Caterers in Delhi NCR",
   description: "Experience the best catering services in Delhi NCR with Shubh Bhoj Catering. Perfect for weddings, corporate events, and parties.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Premium Wedding Caterers in Delhi NCR | Shubh Bhoj",
+    description: "Experience the best catering services in Delhi NCR with Shubh Bhoj Catering. Perfect for weddings, corporate events, and parties.",
+    url: "/",
+    images: ["/gallery-5.jpg"],
+  },
+  twitter: {
+    title: "Premium Wedding Caterers in Delhi NCR | Shubh Bhoj",
+    description: "Experience the best catering services in Delhi NCR with Shubh Bhoj Catering. Perfect for weddings, corporate events, and parties.",
+    images: ["/gallery-5.jpg"],
+  },
 };
 
 export default function Home() {

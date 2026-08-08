@@ -3,6 +3,18 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Catering Cost Estimator",
   description: "Calculate your premium wedding and corporate catering budget instantly. Shubh Bhoj offers transparent, customizable catering packages in Delhi NCR.",
+  alternates: {
+    canonical: "/estimator",
+  },
+  openGraph: {
+    title: "Catering Cost Estimator | Shubh Bhoj",
+    description: "Calculate your premium wedding and corporate catering budget instantly. Shubh Bhoj offers transparent, customizable catering packages in Delhi NCR.",
+    url: "/estimator",
+  },
+  twitter: {
+    title: "Catering Cost Estimator | Shubh Bhoj",
+    description: "Calculate your premium wedding and corporate catering budget instantly. Shubh Bhoj offers transparent, customizable catering packages in Delhi NCR.",
+  },
 };
 
 export default function EstimatorLayout({

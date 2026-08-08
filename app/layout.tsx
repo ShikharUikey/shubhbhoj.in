@@ -3,6 +3,7 @@ import "./globals.css";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.shubhbhoj.com"),
   title: {
     default: "Shubh Bhoj Catering & Events | Premium Catering Services in Delhi NCR",
     template: "%s | Shubh Bhoj Catering",
